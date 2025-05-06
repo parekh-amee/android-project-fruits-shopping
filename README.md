@@ -26,7 +26,7 @@ This project showcases end-to-end mobile app development with backend integratio
 ```bash
 git clone https://github.com/parekh-amee/android-project-fruits-shopping.git
 
-Step 2: Open in Android Studio
+### Step 2: Open in Android Studio
 Launch Android Studio
 
 Click Open an existing project
@@ -35,14 +35,16 @@ Select the cloned folder
 
 Let Gradle finish syncing
 
-Step 3: Setup Backend
+### Step 3: Setup Backend
 Host PHP scripts using XAMPP or WAMP, or upload to a live server
 
-Import the provided .sql file into phpMyAdmin to create the database
+### Import the provided .sql file into phpMyAdmin to create the database
 
 Update your API URLs in the Android app code to match your server’s IP or domain
 
-💻 Tech Stack
+---
+
+## 💻 Tech Stack
 Frontend (Android App)
 
 Java
@@ -60,7 +62,9 @@ PHP
 MySQL
 
 Apache Server (XAMPP/WAMP)
+---
 
+##
 ✨ Features
 🔐 Login & Signup system (server-authenticated)
 
@@ -72,6 +76,9 @@ Apache Server (XAMPP/WAMP)
 
 💾 Persistent data storage with MySQL
 
+---
+
+##
 🔧 Architecture
 nginx
 Copy
@@ -82,6 +89,8 @@ The app sends HTTP requests (login, signup, cart actions)
 PHP handles the logic and queries the MySQL database
 
 Responses are sent back to the app in JSON format
+---
 
+##
 👩‍💻 Author
 Amee Parekh
